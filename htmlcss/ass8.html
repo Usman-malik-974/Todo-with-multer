@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass8.css">
+
+</head>
+
+<body>
+    <div id="todopage">
+        <div id="tasklist">
+            <h1>Task list</h1>
+            <p>Add tasks to the list by typing to the right side and pressing enter. you may view the pending task below
+            </p>
+            <div id="todolist">
+            </div>
+        </div>
+        <!-- <form action="/addtask" method="post" enctype="multipart/form-data"> -->
+        <div class="taskform">
+            <div id="taskinput">
+                <input required id="task" name="task" type="text" placeholder="I need to...">
+                <button id="addtolist" type="submit">Submit</button>
+            </div>
+            <input required id="imgfile" name="imgfile" type="file">
+            <!-- </form> -->
+        </div>
+    </div>
+</body>
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+<script src="ass8script.js"></script>
+
+</html>
